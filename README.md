@@ -68,9 +68,10 @@ The secondary color determines the inverse color of the noise pattern.
 
 ### Overlay Texture
 Overlays another texture on top of the entire sprite.
+This is used in the examples to apply a fading effect around the edges of the planet.
 
 ### HV Cutoff
-HV Cutoff applies an alpha cutoff on the horizontal and vertical UVS.
+HV Cutoff applies an alpha cutoff on the horizontal and vertical UVs.
 A noise pattern can be applied to this cutoff as well.
 
 ## Things To Note
@@ -79,6 +80,7 @@ A noise pattern can be applied to this cutoff as well.
 
 ## Known Issues
 * The final .shader version does not show the separate categories.
+* The HV Cut noise step value isn't working as intended
 
 ## Possible Future Improvements
 * Improved shader options
