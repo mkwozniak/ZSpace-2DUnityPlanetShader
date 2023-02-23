@@ -49,7 +49,7 @@ Open the demo scene PlanetExample.unity to see the more lively examples of plane
 More examples are in the demo scene.
 
 ## Requirements
-* Unity 2022+ with Universal Render Pipeline
+* Unity 2021+ with Universal Render Pipeline
 
 ## Features
 * 3 Levels of noise from full alpha noise, color noise, and alpha cutoff noise.
