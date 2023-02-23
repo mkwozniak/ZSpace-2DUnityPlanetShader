@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Star-0
+  m_Shader: {fileID: 4800000, guid: aa68b21ecc498ad478139518e3af9b19, type: 3}
+  m_ValidKeywords:
+  - _ALPHANOISETYPE_TEXTURE
+  - _COLORNOISETYPE_VORONOICELL
+  - _HVCUTNOISETYPE_SIMPLENOISE
+  m_InvalidKeywords:
+  - _COLORNOISEBLENDMODE_OVERLAY
+  - _CUTNOISETYPE_A
+  - _CUTNOISETYPE_SIMPLENOISE
+  - _GENERATEDNOISETYPE_SIMPLENOISE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Base_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Normal_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: f9beac1f97412cd44b8b07f00ea30deb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaOverlayTexture:
+        m_Texture: {fileID: 2800000, guid: ef9da69adedf07042ab14b5a045972ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorNoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutNoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeFadeTexture:
+        m_Texture: {fileID: 2800000, guid: 22e8ff4337dd07045a655123841f2c8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HVCutNoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: cd93e7f22c7ae9145b4dd43a60e4e5f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_448f3eafd033498d95718e736608e9f3_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f96aebb9bcd1e3b44bafbb23b1bdac88, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_57e665f52b224e5f876aa505e569f889_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 22e8ff4337dd07045a655123841f2c8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Normal_Blend: 0.5
+    - _ALPHANOISETYPE: 0
+    - _AlphaCut: 0
+    - _AlphaCutHorizontal: 0
+    - _AlphaCutInverse: 0
+    - _AlphaCutSmoothEdge: 0.16
+    - _AlphaCutVertical: 0.21
+    - _AlphaNoiseInverse: 0
+    - _AlphaNoiseScale: 87.29
+    - _AlphaNoiseStep: 1
+    - _AlphaNoiseTime: 0
+    - _AlphaOverlayStrength: 1
+    - _AlphaStepValue: 0.68
+    - _AlphaVoronoiDensity: 5
+    - _AlphaVoronoiOffset: 2
+    - _ApplyInverseColor: 0
+    - _ApplySecondColor: 0
+    - _ApplySecondaryColor: 0
+    - _BlendOpacity: 0
+    - _COLORNOISEBLENDMODE: 0
+    - _COLORNOISETYPE: 4
+    - _CUTNOISETYPE: 1
+    - _ColorNoiseBlending: 0.59
+    - _ColorNoiseFade: 0.42
+    - _ColorNoiseScale: 31.93
+    - _ColorNoiseTime: 0
+    - _ColorStepValue: 0.95
+    - _ColorVoronoiDensity: 6.28
+    - _ColorVoronoiOffset: 2
+    - _CutInverse: 0
+    - _CutInverseHorizontal: 0
+    - _CutInverseVertical: 0
+    - _CutLeftOnly: 0
+    - _CutNoiseScale: 75.2
+    - _CutNoiseVoronoiDensity: 0
+    - _CutNoiseVoronoiOffset: 0
+    - _CutRightOnly: 0
+    - _CutSmoothEdgeH: 1
+    - _CutSmoothEdgeV: 0.1
+    - _CutStepValue: 0.5
+    - _DecalMeshBiasType: 0
+    - _DecalMeshDepthBias: 0
+    - _DecalMeshViewBias: 0
+    - _DrawOrder: 0
+    - _EdgeFade: 1
+    - _EdgeFadeMultiplier: 18
+    - _EdgeFadeSharpen: 0
+    - _EdgeFadeSmoothing: 0.1
+    - _EdgeFadeStep: 0.1
+    - _EnableExternalAlpha: 0
+    - _Fade: 0.38
+    - _FadeAlphaNoise: 0
+    - _GENERATEDNOISETYPE: 0
+    - _HCutNoise: 0
+    - _HCutSmooth: 1
+    - _HCutValue: 0.05
+    - _HVCUTNOISETYPE: 1
+    - _HVCut: 0
+    - _HVCutInverse: 0
+    - _HVCutNoise: 0
+    - _HVCutNoiseScale: 25
+    - _HVCutNoiseVoronoiDensity: 0
+    - _HVCutNoiseVoronoiOffset: 0
+    - _HVCutStepValue: 0.5
+    - _HorizontalCutNoise: 0
+    - _LeftUVEdge: 0.65
+    - _LeftUVSmooth: 0.51
+    - _NegativeAlphaNoise: 0
+    - _NegativeNoise: 0
+    - _Noise2: 0
+    - _NoiseFade2: 0.3
+    - _NoiseScale: 25
+    - _NoiseScale2: 0
+    - _NoiseTwirlStrength: 0
+    - _PolarLength: 409.23
+    - _PolarRadial: 5.41
+    - _RemapCut: 0
+    - _RightUVEdge: 0.65
+    - _RightUVSmooth: 0.51
+    - _Scale: 28.2
+    - _SmoothHCut: 0
+    - _SmoothStepH: 0
+    - _SmoothStepV: 1
+    - _SmoothVCut: 1
+    - _StepAlphaNoise: 1
+    - _StepColorNoise: 0
+    - _StepCutNoise: 0
+    - _TwoColorBlending: 1
+    - _UVEdgeFade: 0
+    - _UVRotation: 1.36
+    - _UseAlphaNoise: 0
+    - _UseAlphaOverlay: 1
+    - _UseColorNoise: 0
+    - _UseNoiseTexture: 0
+    - _VCutNoise: 0
+    - _VCutSmooth: 1
+    - _VCutValue: 0.18
+    - _VerticalCutNoise: 0
+    - _VoronoiCellDensity: 5
+    - _VoronoiOffset: 2
+    m_Colors:
+    - Color_7A0CCA10: {r: 0.8603976, g: 0.22073027, b: 0.14415039, a: 0}
+    - _AlphaEmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AlphaNoiseColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 0}
+    - _AlphaNoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AlphaNoiseSpeed: {r: 0.04, g: 0.03, b: 0, a: 0}
+    - _AlphaNoiseTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorNoiseColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _ColorNoiseColor2: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+    - _ColorNoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorNoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorNoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionCol: {r: 0.65199214, g: 0.65199214, b: 0.65199214, a: 0}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _InverseColor: {r: 39.396626, g: 18.230595, b: 0, a: 1}
+    - _NoiseColor: {r: 15.104688, g: 15.104688, b: 15.104688, a: 1}
+    - _NoiseColor2: {r: 1, g: 0, b: 0.03486824, a: 1}
+    - _NoiseTwirlCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _PolarCenter: {r: 1, g: 1, b: 0, a: 0}
+    - _RemapCutV1: {r: 1, g: -1, b: 0, a: 0}
+    - _RemapCutV2: {r: 0, g: 1, b: 0, a: 0}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ScrollSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _ScrollSpeed2: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling2: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
