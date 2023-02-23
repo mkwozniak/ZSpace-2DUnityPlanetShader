@@ -6,7 +6,7 @@ This was my first attempt at making a shader with the shadergraph so feel free t
 
 Open the demo scene PlanetExample.unity to see the more lively examples of planets.
 
-# Screenshots
+## Screenshots
 <details>
   <summary>Terran</summary> 
   
@@ -48,8 +48,7 @@ Open the demo scene PlanetExample.unity to see the more lively examples of plane
 
 More examples are in the demo scene.
 
-
-# Requirements
+## Requirements
 * Unity 2022+ with Universal Render Pipeline
 
 ## Features
@@ -57,9 +56,29 @@ More examples are in the demo scene.
 * Texture2D, Simple, Gradient, Voronoi, and Voronoi Cell available for each layer.
 * Versatile, highly customizable, and robust.
 
+## How To Use
+There are four main categories of the shader, each with their own options.
+
+### Alpha Noise
+Alpha Noise applies an alpha cutoff noise pattern to the entire sprite.
+
+### Color Noise
+Color noise applies a colored noise pattern on top of that. 
+The secondary color determines the inverse color of the noise pattern.
+
+### Overlay Texture
+Overlays another texture on top of the entire sprite.
+
+### HV Cutoff
+HV Cutoff applies an alpha cutoff on the horizontal and vertical UVS.
+A noise pattern can be applied to this cutoff as well.
+
 ## Things To Note
 * Alpha noise emission color and color noise don't work together. If using color noise, it will use that color for emission.
 * When using the Inverse HV Cutoff option, make sure to adjust the cutoff values accordingly.
+
+## Known Issues
+* The final .shader version does not show the separate categories.
 
 ## Possible Future Improvements
 * Improved shader options
